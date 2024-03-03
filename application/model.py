@@ -183,3 +183,4 @@ class LSTMModelBuilder:
                                                 "pred" : self.valid['Predictions']})
         fig = px.line(self.df_predictions)
         return fig
+    
